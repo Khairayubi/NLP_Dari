@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>DariVerse</title>
+
+  <!-- GOOGLE FONT -->
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- FONT AWESOME -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <!-- CSS -->
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor-glow"></div>
+
+  <!-- =========================
+  LOADER
+  ========================= -->
+
+  <div
+    class="loader-screen"
+    id="loader"
+  >
+
+    <div class="loader-bg-glow"></div>
+
+    <div class="loader-center">
+
+      <div class="loader-ring"></div>
+
+      <div class="loader-inner-glow"></div>
+
+      <div class="loader-letter">
+        د
+      </div>
+
+    </div>
+
+    <h1 class="loader-title">
+      DariVerse
+    </h1>
+
+    <p
+      class="loader-subtitle"
+      id="loaderMessage"
+    >
+      ENTERING THE LANGUAGE
+    </p>
+
+    <div class="loader-progress-wrapper">
+
+      <div class="loader-progress-track">
+
+        <div
+          class="loader-progress-bar"
+          id="loaderBar"
+        ></div>
+
+      </div>
+
+    </div>
+
+    <div
+      class="loader-percent"
+      id="loaderPercent"
+    >
+      0%
+    </div>
+
+  </div>
+
+  <!-- =========================
+  BACKGROUND
+  ========================= -->
+
+  <div class="background-wrapper">
+
+    <div class="blob blob1"></div>
+
+    <div class="blob blob2"></div>
+
+    <div class="blob blob3"></div>
+
+    <div class="mesh"></div>
+
+  </div>
+
+  <!-- =========================
+  NAVBAR
+  ========================= -->
+
+  <nav class="navbar">
+
+    <div class="logo">
+      DariVerse
+    </div>
+
+    <div class="nav-links">
+
+      <a href="#hero">
+        Home
+      </a>
+
+      <a href="#learning">
+        Learning
+      </a>
+
+      <a href="#footer">
+        Contact
+      </a>
+
+    </div>
+
+    <button
+      class="hamburger"
+      id="hamburger"
+    >
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </button>
+
+  </nav>
+
+  <!-- MOBILE MENU -->
+
+  <div
+    class="mobile-menu"
+    id="mobileMenu"
+  >
+
+    <a href="#hero">
+      Home
+    </a>
+
+    <a href="#learning">
+      Learning
+    </a>
+
+    <a href="#footer">
+      Contact
+    </a>
+
+  </div>
+
+  <!-- =========================
+  HERO
+  ========================= -->
+
+  <section
+    class="hero-section"
+    id="hero"
+  >
+
+    <!-- LEFT -->
+
+    <div class="hero-left">
+
+      <span class="premium-badge">
+        FUTURISTIC LANGUAGE EXPERIENCE
+      </span>
+
+      <h1>
+
+        Learn Dari Alphabet
+
+        <span>
+          In A Magical Way
+        </span>
+
+      </h1>
+
+      <p>
+
+        A futuristic immersive learning platform
+        designed to make learning the Dari alphabet
+        interactive, cinematic, and visually engaging.
+
+      </p>
+
+      <div class="hero-buttons">
+
+        <a
+          href="#learning"
+          class="primary-btn"
+        >
+          Start Learning
+        </a>
+
+        <a
+          href="#learning"
+          class="secondary-btn"
+        >
+          Explore
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="hero-right">
+
+      <div class="floating-card card1">
+        ا
+      </div>
+
+      <div class="floating-card card2">
+        ب
+      </div>
+
+      <div class="floating-card card3">
+        پ
+      </div>
+
+      <div class="floating-card card4">
+        ت
+      </div>
+
+      <div class="ring ring1"></div>
+
+      <div class="ring ring2"></div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+  LEARNING
+  ========================= -->
+
+  <section
+    class="learning-section"
+    id="learning"
+  >
+
+    <div class="section-title">
+
+      <span>
+        IMMERSIVE LEARNING
+      </span>
+
+      <h2>
+        Dari Alphabet Experience
+      </h2>
+
+    </div>
+
+    <!-- CARD -->
+
+    <div
+      class="alphabet-card"
+      id="alphabetCard"
+    >
+
+      <!-- TOP BAR -->
+
+      <div class="top-bar">
+
+        <div
+          class="counter"
+          id="counter"
+        >
+          1 / 32
+        </div>
+
+        <div class="progress-track">
+
+          <div
+            class="progress-fill"
+            id="progressFill"
+          ></div>
+
+        </div>
+
+      </div>
+
+      <!-- CONTENT -->
+
+      <div class="alphabet-content">
+
+        <div
+          class="alphabet-letter"
+          id="letter"
+        >
+          ا
+        </div>
+
+        <div
+          class="translit-badge"
+          id="translit"
+        >
+          Alef
+        </div>
+
+        <!-- IMAGE -->
+
+        <div class="image-display">
+
+          <img
+            id="letterImage"
+            src=""
+            alt=""
+          >
+
+        </div>
+
+        <!-- WORD -->
+
+        <div class="word-section">
+
+          <h3 id="word">
+            انار
+          </h3>
+
+          <p id="meaning">
+            Pomegranate
+          </p>
+
+        </div>
+
+        <!-- AUDIO -->
+
+        <button
+          class="play-btn"
+          id="playBtn"
+        >
+
+          <i class="fas fa-play"></i>
+
+          Play Pronunciation
+
+        </button>
+
+      </div>
+
+      <!-- FACT -->
+
+      <div class="fact-box">
+
+        <span class="fact-icon">
+          💡
+        </span>
+
+        <p id="factText">
+          ا is the first letter.
+        </p>
+
+      </div>
+
+      <!-- NAVIGATION -->
+
+      <div class="card-navigation">
+
+        <button
+          class="nav-btn"
+          id="prevBtn"
+        >
+          ← Previous
+        </button>
+
+        <button
+          class="nav-btn active-btn"
+          id="nextBtn"
+        >
+          Next →
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+  FOOTER
+  ========================= -->
+
+  <footer
+    class="footer-section"
+    id="footer"
+  >
+
+    <div class="footer-grid">
+
+      <!-- ABOUT -->
+
+      <div>
+
+        <h3>
+          DariVerse
+        </h3>
+
+        <p>
+
+          A futuristic immersive learning platform
+          designed to help learners explore the
+          Dari alphabet through cinematic visuals,
+          pronunciation, and interactive learning.
+
+        </p>
+
+      </div>
+
+      <!-- NAVIGATION -->
+
+      <div>
+
+        <h4>
+          Navigation
+        </h4>
+
+        <ul>
+
+          <li>
+            <a href="#hero">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="#learning">
+              Learning
+            </a>
+          </li>
+
+          <li>
+            <a href="#footer">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <!-- CONTACT -->
+
+      <div>
+
+        <h4>
+          Contact
+        </h4>
+
+        <ul>
+
+          <li>
+            Abidak1907@gmail.com
+          </li>
+          <li>
+            Khairullah3412@gmail.com
+          </li>
+
+          <li>
+            Quetta, Pakistan
+          </li>
+
+        </ul>
+
+      </div>
+
+      <!-- SOCIALS -->
+
+      <div>
+
+        <h4>
+          Socials
+        </h4>
+
+        <div class="social-icons">
+
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- PROJECT CREDIT -->
+
+    <div class="project-credit">
+
+      <h4>
+        Project Credits
+      </h4>
+
+      <p>
+
+        This project was created by
+
+        <strong>
+          Ahmed Abid
+        </strong>
+
+        and
+
+        <strong>
+          Khair Ullah
+        </strong>
+
+      </p>
+
+      <p>
+
+        Supervised by
+
+        <strong>
+          Dr. Anwar Ali Sanjrani
+        </strong>
+
+      </p>
+
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+
+    <div class="footer-bottom">
+
+      © 2026 DariVerse — All Rights Reserved
+
+    </div>
+
+  </footer>
+
+  <!-- JS -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
